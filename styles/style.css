@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    background-color: #f7e6be;
+}
+
+
+
+/* estilização da entrada, saida e total */
+
+.resume{
+    display: flex;
+    justify-content: center;
+}
+
+.resume .box1, .box2, .box3{
+    border: 2px solid #000;
+    margin: 2rem 1rem;
+    padding: 1rem 1rem;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #f7edb3;
+}
+
+.box1{
+    color: #587a58;
+}
+
+.box2{
+    color: #DB332A;
+}
+
+/* estilização da Descrição, valor, tipo e button de incluir */
+
+.newItem{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin: 8px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.newItem, .divDesc, .divAmount, .divType{
+    /* padding: 12px 5px 12px 5px;
+    display: flex; */
+    padding: 0px 5px 12px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newItem input{
+    border: 1px solid #000;
+    width: 245px;
+    height: 25px;
+    background-color: #f7edb3;
+}
+
+#btnNew {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.divTable{
+    display: flex;
+    justify-content: center;
+}
+
+.divTable, .columnAmount, .columnType, .columnAction{
+    padding: 12px;
+    margin: 15px;
+    
+
+
+}
+
+
+
